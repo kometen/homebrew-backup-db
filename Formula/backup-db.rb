@@ -5,6 +5,13 @@ class BackupDb < Formula
   sha256 "5635249ad9f8d5cdbd493fb4fdc94663cabb1fc1f0b98a6e4a5b0bd4c2095765"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/kometen/homebrew-backup-db/releases/download/backup-db-0.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5c6dac479ffb848818e63df2ad8ab99fc4046d5ce4242864ad6182da4fdbffb9"
+    sha256 cellar: :any_skip_relocation, ventura:       "fe104c35361ae661b40c405a6f5c5b3275a7fae0bc2d86426341429c2299c731"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "a93aca31d58c14af1aa7a21a5255967296fa07633e12f733f73d9e09dc41f597"
+  end
+
   depends_on "rust" => :build
   depends_on "openssl@3.4"
 
