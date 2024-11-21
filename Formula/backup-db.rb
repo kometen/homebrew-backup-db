@@ -6,6 +6,7 @@ class BackupDb < Formula
   license "MIT"
 
   bottle do
+    "end"
   end
 
   depends_on "rust" => :build
