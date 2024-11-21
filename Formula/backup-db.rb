@@ -6,7 +6,7 @@ class BackupDb < Formula
   license "MIT"
 
   depends_on "rust" => :build
-  depends_on "openssl@1.1"
+  depends_on "openssl@3.4"
 
   def install
     system "cargo", "install", *std_cargo_args
