@@ -1,6 +1,6 @@
 class BackupDb < Formula
   desc "Read secrets from Azure Key Vault and backup a PostgreSQL database"
-  homepage ""
+  homepage "https://github.com/kometen/backup-db"
   url "https://github.com/kometen/backup-db/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "5635249ad9f8d5cdbd493fb4fdc94663cabb1fc1f0b98a6e4a5b0bd4c2095765"
   license "MIT"
