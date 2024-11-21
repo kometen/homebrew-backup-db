@@ -5,6 +5,7 @@ class BackupDb < Formula
   sha256 "5635249ad9f8d5cdbd493fb4fdc94663cabb1fc1f0b98a6e4a5b0bd4c2095765"
   license "MIT"
 
+  depends_on "openssl@1.1"
   depends_on "rust" => :build
 
   def install
